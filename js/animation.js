@@ -38,8 +38,8 @@
 
     //  // Array of image URLs
     //  const images = [
-    //     // "images/111.jpg",
-    //     // "images/222.jpg",
+    //     "images/Customized Support.png",
+    //     "images/learn-img.jpg",
     //     // "images/333.jpg",
     //     // "images/444.jpg",
       
