@@ -31,34 +31,34 @@
                 preloader.style.display = "none"; // Hide after fade-out
                 content.style.display = "block"; // Show the content
             }, 500); // Match the transition duration
-        }, 3000); // 5 seconds
+        }, 2000); // 5 seconds
     });
 
 
 
-     // Array of image URLs
-     const images = [
-        "images/11.jpg",
-        "images/22.jpg",
-        "images/33.jpg",
-        "images/44.jpg",
+    //  // Array of image URLs
+    //  const images = [
+    //     // "images/111.jpg",
+    //     // "images/222.jpg",
+    //     // "images/333.jpg",
+    //     // "images/444.jpg",
       
-    ];
+    // ];
 
-    let currentIndex = 0; // Start with the first image
+    // let currentIndex = 0; // Start with the first image
 
-    // Reference to the image element
-    const photoElement = document.getElementById("photo");
+    // // Reference to the image element
+    // const photoElement = document.getElementById("photo");
 
-    // Function to change the image
-    function changePhoto() {
-        currentIndex = (currentIndex + 1) % images.length; // Increment index, loop back if at the end
-        photoElement.style.opacity = "0"; // Start fade out
-        setTimeout(() => {
-            photoElement.src = images[currentIndex]; // Change image
-            photoElement.style.opacity = "1"; // Fade in new image
-        }, 500); // Match transition duration
-    }
+    // // Function to change the image
+    // function changePhoto() {
+    //     currentIndex = (currentIndex + 1) % images.length; // Increment index, loop back if at the end
+    //     photoElement.style.opacity = "0"; // Start fade out
+    //     setTimeout(() => {
+    //         photoElement.src = images[currentIndex]; // Change image
+    //         photoElement.style.opacity = "1"; // Fade in new image
+    //     }, 500); // Match transition duration
+    // }
 
-    // Auto-change photo every 3 seconds
-    setInterval(changePhoto, 3000);
+    // // Auto-change photo every 3 seconds
+    // setInterval(changePhoto, 3000);
